@@ -113,8 +113,6 @@ plugins {
 }
 
 allprojects {
-    apply plugin: 'maven-publish'
-    group = 'com.github.joshdmiller5'
     apply from: "$rootDir/detekt/detekt.gradle"
     repositories {
         google()
